@@ -10,7 +10,7 @@
   <project path="bionic" name="AOSP-JF-MM/platform_bionic" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="bootable/recovery" name="AOSP-JF-MM/platform_bootable_recovery" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="device/qcom/sepolicy" name="AOSP-JF-MM/platform_device_qcom_sepolicy" remote="github" revision="aosp-7.1.1" />
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.1" />
+  <project path="device/qcom/common" name="Elixir-OS/platform_device_qcom_common" remote="github" revision="aosp-7.1.1" />
   <project path="external/android-clat" name="AOSP-JF-MM/platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.1" />
   <project path="external/boringssl" name="AOSP-JF-MM/platform_external_boringssl" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="external/bzip2" name="AOSP-JF-MM/platform_external_bzip2" groups="pdk" remote="github" revision="aosp-7.1.1" />
@@ -18,18 +18,21 @@
   <project path="external/connectivity" name="AOSP-JF-MM/platform_external_connectivity" remote="github" revision="aosp-7.1.1" />
   <project path="external/iproute2" name="AOSP-JF-MM/platform_external_iproute2" groups="pdk" remote="github" revision="aosp-7.1.1"/>
   <project path="external/ipsec-tools" name="AOSP-JF-MM/platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.1" />
-  <project path="external/jemalloc" name="AOSP-JF-MM/platform_external_jemalloc" groups="pdk" remote="github" revision="aosp-7.1.1" />
+  <project path="external/jemalloc" name="Elixir-OS/platform_external_jemalloc" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="external/libselinux" name="AOSP-JF-MM/platform_external_libselinux" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="external/lz4" name="AOSP-JF-MM/platform_external_lz4" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.1" />
+  <project path="external/libjpeg-turbo" name="Elixir-OS/platform_external_libjpeg-turbo" groups="pdk" remote="github" revision="aosp-7.1.1" />
+  <project path="external/libpng" name="Elixir-OS/platform_external_libpng" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="external/lzma" name="AOSP-JF-MM/platform_external_lzma" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="external/okhttp" name="AOSP-JF-MM/platform_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.1" />
-  <project path="external/skia" name="AOSP-JF-MM/platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="github" revision="aosp-7.1.1" />
+  <project path="external/skia" name="Elixir-OS/platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="github" revision="aosp-7.1.1" />
+  <project path="external/sqlite" name="Elixir-OS/platform_external_sqlite" remote="github" revision="aosp-7.1.1" />
   <project path="external/stlport" name="AOSP-JF-MM/platform_external_stlport" remote="github" revision="aosp-7.1.1" />
   <project path="external/tinyalsa" name="AOSP-JF-MM/platform_external_tinyalsa" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="external/tinycompress" name="AOSP-JF-MM/platform_external_tinycompress" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="external/tinyxml2" name="AOSP-JF-MM/platform_external_tinyxml2" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="external/yaffs2" name="AOSP-JF-MM/platform_external_yaffs2" groups="pdk" remote="github" revision="aosp-7.1.1" />
-  <project path="external/zlib" name="AOSP-JF-MM/platform_external_zlib" groups="pdk" remote="github" revision="aosp-7.1.1" />
+  <project path="external/zlib" name="Elixir-OS/platform_external_zlib" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="frameworks/av" name="AOSP-JF-MM/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-7.1.1" />
   <project path="frameworks/base" name="Elixir-OS/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.1" />
   <project path="frameworks/native" name="AOSP-JF-MM/platform_frameworks_native" groups="pdk" remote="github" revision="aosp-7.1.1" />
@@ -100,6 +103,7 @@
 
   <!-- Vendors -->
   <project path="vendor/elixir" name="Elixir-OS/platform_vendor_elixir" remote="github" revision="aosp-7.1.1" />
+  <project path="vendor/qcom/sdclang-3.8/linux-x86" name="Elixir-OS/platform_vendor_qcom_sdclang-3.8" remote="github" revision="aosp-7.1.1"/>
   <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/frameworks" name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1" />

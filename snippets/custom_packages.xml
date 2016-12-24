@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- AOSP-JDC -->
+  <!-- Elixir-OS -->
   <project path="build" name="Elixir-OS/platform_build" groups="pdk,tradefed" remote="github" revision="aosp-7.1.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -99,7 +99,7 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" />
 
   <!-- Vendors -->
-  <project path="vendor/elixir" name="Elixir-OS/platform_vendor_aosp" remote="github" revision="aosp-7.1.1" />
+  <project path="vendor/elixir" name="Elixir-OS/platform_vendor_elixir" remote="github" revision="aosp-7.1.1" />
   <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/frameworks" name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" />
   <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1" />
